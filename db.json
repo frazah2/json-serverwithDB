@@ -1,0 +1,41 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "actorIds": [1, 2]
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "actorIds": [2, 3]
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "actorIds": [1, 4]
+    }
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "name": "Leonardo DiCaprio",
+      "movieIds": [1, 3]
+    },
+    {
+      "id": 2,
+      "name": "Joseph Gordon-Levitt",
+      "movieIds": [1, 2]
+    },
+    {
+      "id": 3,
+      "name": "Heath Ledger",
+      "movieIds": [2]
+    },
+    {
+      "id": 4,
+      "name": "Matthew McConaughey",
+      "movieIds": [3]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+  
+.app-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.app-title {
+    text-align: center;
+    color: #333;
+}
+  
+.movie-list, .actor-list {
+    list-style: none;
+    padding: 0;
+}
+  
+.movie-item, .actor-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.movie-item:hover, .actor-item:hover {
+    background-color: #e0e0e0;
+}
+  
+.actor-section, .movie-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
